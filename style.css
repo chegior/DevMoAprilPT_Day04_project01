@@ -1,0 +1,71 @@
+body{
+
+}
+p{
+  text-align: justify;
+  font-family: verdana;
+}
+a{
+  text-decoration:none;
+  color: blue;
+}
+
+img{
+  width:100px;
+  height: 100px;
+}
+
+ /*CLASSES*/
+ /*CLASSES*/
+ /*CLASSES*/
+ .wrapper{
+   display:flex;
+   flex-direction:column;
+   flex-wrap:nowrap;
+   margin:1% 10%;
+   padding: 1% 10%;
+ }
+.top_level{
+  width: 100%;
+  font-family: arial;
+
+}
+.mid_level_m{
+  height:20px;
+  padding: 10px 20px;
+
+}
+
+.mid_level_m p{
+  text-align: right;
+  font-weight: bold;
+
+}
+.mid_logos{
+  max-width: 500px;
+  margin: 0 auto;/*HELPS TO CENTER ITEMS*/
+  list-style: none;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+}
+.logo_box{
+  height: 100px;
+  width: 100px;
+  margin: 15px 5px;
+  padding-right: 15px;
+  flex-grow: 0;
+  height:90px;
+
+}
+
+.bottom_level{
+
+}
+
+.bottom_level p{
+  font-size: 12px;
+  text-align: center;
+
+}
