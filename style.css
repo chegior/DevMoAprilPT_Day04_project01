@@ -42,12 +42,12 @@ img{
 
 }
 .mid_logos{
-  max-width: 500px;
+  max-width: 500px;/* providing a MAX-WIDTH help me by not letting create an extra columm
   margin: 0 auto;/*HELPS TO CENTER ITEMS*/
   list-style: none;
   display:flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-between; /*PROVIDE SPACE BETWEEN THE ITEMS SO THEY DONT GET EACH TO THE OTHER */
 
 }
 .logo_box{
